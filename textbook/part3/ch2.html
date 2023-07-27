@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>6. Understanding Layout &#8212; OPE Book Authoring Guide</title>
   
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -67,7 +68,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="7. Creating Content" href="ch3.html" />
     <link rel="prev" title="5. Initial Setup" href="ch1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -440,7 +441,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="understanding-layout">
-<h1><span class="section-number">6. </span>Understanding Layout<a class="headerlink" href="#understanding-layout" title="Permalink to this headline">#</a></h1>
+<h1><span class="section-number">6. </span>Understanding Layout<a class="headerlink" href="#understanding-layout" title="Permalink to this heading">#</a></h1>
 <p>Before you get started creating a new Textbook, you must familiarize yourself with the layout of the OPE template. There are three different parts of the OPE template:</p>
 <ol class="arabic simple">
 <li><p>Textbook Content (tb)</p></li>
@@ -449,7 +450,7 @@ document.write(`
 </ol>
 <p>The files associated with each will contain the two letters that appear in parenthesis above. For example, files associated with textbook content will have tb in the file name (such as tb_config.yml). Going forward in this guide, xx will be used to refer to a file that is not specific to any of the three, but rather all of them (such as xx_config.yml).</p>
 <section id="important-files">
-<h2><span class="section-number">6.1. </span>Important files<a class="headerlink" href="#important-files" title="Permalink to this headline">#</a></h2>
+<h2><span class="section-number">6.1. </span>Important files<a class="headerlink" href="#important-files" title="Permalink to this heading">#</a></h2>
 <ul>
 <li><p><strong>Makefile:</strong> The top level Makefile automates the tasks of building and publishing the book content. This includes the textbook, the lecture notes, and the lab manual. You can see a list of build targets by running the “Make” command in the same directory as the Makefile.</p></li>
 <li><p><strong>xx_config.yml:</strong> This config file is used to change book settings such as: title, author, logo, URL to publish to, and jupyter extensions you would like enabled, etc.</p></li>
